@@ -23,7 +23,7 @@ import { collection, doc, deleteDoc, getDocs } from "@firebase/firestore";
 import { auth, db, storages } from "../../firebase/Firebase";
 import { TextInput, Searchbar } from "react-native-paper";
 
-const avatar = require("../../assets/images/icon.png");
+const avatar = require("../../assets/images/icon.jpg");
 
 const { width, height } = Dimensions.get("window");
 
@@ -92,7 +92,7 @@ const ShopScreen = ({ navigation }) => {
                 }}
               >
                 <Image
-                  source={require("../../assets/images/icon.png")}
+                  source={require("../../assets/images/icon.jpg")}
                   style={{
                     width: 60,
                     height: 60,

@@ -2,7 +2,7 @@ import { StyleSheet, Text, View,Dimensions, SafeAreaView, StatusBar, ScrollView,
 import React, { useContext,useState } from 'react'
 import { Colors, Fonts, Sizes,images } from '../../constants/styles';
 import { MaterialCommunityIcons, MaterialIcons } from '@expo/vector-icons';
-import SvgIcon from '../../assets/images/icon2.png';
+import SvgIcon from '../../assets/images/icon2.jpg';
 import RNPickerSelect from "react-native-picker-select";
 import { auth, db } from '../../firebase/Firebase';
 import { setDoc, doc, collection, addDoc  } from "firebase/firestore";

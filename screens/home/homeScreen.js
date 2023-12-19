@@ -242,7 +242,7 @@ const HomeScreen = ({ navigation, route, screenProps }) => {
         </View>
         <View style={{ position: "absolute", right: -40.0, bottom: -2 }}>
           <Image
-            source={require("../../assets/images/icon.png")}
+            source={require("../../assets/images/icon.jpg")}
             style={{
               height: height / 5.3,
               resizeMode: "stretch",

@@ -12,7 +12,7 @@ import {  signInWithEmailAndPassword } from "firebase/auth";
 import { TextInput } from 'react-native-paper';
 
 
-import SvgIcon from '../../assets/images/icon2.png';
+import SvgIcon from '../../assets/images/icon2.jpg';
 
 const SigninScreen = ({ navigation }) => {
 
@@ -300,7 +300,7 @@ const [messageType,setMessageType] =useState('');
             <View style={styles.loginIcon}>
                 <Image
                     source={SvgIcon}
-                    style={{ width: 300.0, height: 200.0 }}
+                    style={{ width: 300.0, height: 300.0 }}
                 />            
                 <Text style={styles.headerWrapStyle}>
 تسجيل دخول في متجر تسونامي                </Text>

@@ -145,7 +145,7 @@ const ModalScreen = ({ navigation, TotalValue, hideModal }) => {
         >
           <Image
             style={{ height: 50, width: 50 }}
-            source={require("../assets/images/icon.png")}
+            source={require("../assets/images/icon.jpg")}
           />
 
           <Text style={{ ...Fonts.primaryColor24SemiBold, top: 7 }}>

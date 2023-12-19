@@ -16,7 +16,7 @@ import React, { useState, useContext, useEffect } from "react";
 import { Colors, Fonts, Sizes, Size } from "../../constants/styles";
 import { MaterialCommunityIcons, MaterialIcons } from "@expo/vector-icons";
 import AntDesignIcons from "react-native-vector-icons/AntDesign";
-import svgicon from "../../assets/images/icon.png";
+import svgicon from "../../assets/images/icon.jpg";
 
 const { width, height } = Dimensions.get("window");
 const WorkCategories = [

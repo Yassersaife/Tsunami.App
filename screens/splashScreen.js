@@ -24,7 +24,7 @@ const SplashScreen = ({ navigation }) => {
     function appIcon() {
         return (
             <Image
-                source={require('../assets/images/icon.png')}
+                source={require('../assets/images/icon.jpg')}
                 style={{ width: width *1.5, height: height*1.5 , resizeMode: 'contain' }}
             />
         )
